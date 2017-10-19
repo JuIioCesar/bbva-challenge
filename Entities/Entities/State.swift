@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct State {
+public struct State {
     let id: Int
     let country: String
     let name: String
@@ -18,7 +18,7 @@ struct State {
     let capital: String
 }
 
-extension State {
+public extension State {
     private struct Keys {
         static let id = "id"
         static let country = "country"
@@ -43,9 +43,9 @@ extension State {
         self.id = id
         self.country = country
         self.name = name
-        self.abbr = abrr
+        self.abbr = abbr
         self.area = area
-        self.largest_city = largest_city
+        self.largestCity = largest_city
         self.capital = capital
     }
 }

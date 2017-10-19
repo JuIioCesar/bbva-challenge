@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42AA419A1F99624B00501A70 /* Entities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA41901F99624B00501A70 /* Entities.framework */; };
-		42AA419F1F99624B00501A70 /* EntitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA419E1F99624B00501A70 /* EntitiesTests.swift */; };
+		42AA419F1F99624B00501A70 /* StateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA419E1F99624B00501A70 /* StateTests.swift */; };
 		42AA41A11F99624B00501A70 /* Entities.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AA41931F99624B00501A70 /* Entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42AA41AB1F99628B00501A70 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA41AA1F99628B00501A70 /* State.swift */; };
 /* End PBXBuildFile section */
@@ -28,9 +28,10 @@
 		42AA41931F99624B00501A70 /* Entities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entities.h; sourceTree = "<group>"; };
 		42AA41941F99624B00501A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42AA41991F99624B00501A70 /* EntitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42AA419E1F99624B00501A70 /* EntitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesTests.swift; sourceTree = "<group>"; };
+		42AA419E1F99624B00501A70 /* StateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTests.swift; sourceTree = "<group>"; };
 		42AA41A01F99624B00501A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42AA41AA1F99628B00501A70 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		42AA41AD1F99665C00501A70 /* State.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = State.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +84,8 @@
 		42AA419D1F99624B00501A70 /* EntitiesTests */ = {
 			isa = PBXGroup;
 			children = (
-				42AA419E1F99624B00501A70 /* EntitiesTests.swift */,
+				42AA419E1F99624B00501A70 /* StateTests.swift */,
+				42AA41AD1F99665C00501A70 /* State.json */,
 				42AA41A01F99624B00501A70 /* Info.plist */,
 			);
 			path = EntitiesTests;
@@ -208,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42AA419F1F99624B00501A70 /* EntitiesTests.swift in Sources */,
+				42AA419F1F99624B00501A70 /* StateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EntitiesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -397,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EntitiesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
