@@ -11,6 +11,7 @@
 		42AA419F1F99624B00501A70 /* StateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA419E1F99624B00501A70 /* StateTests.swift */; };
 		42AA41A11F99624B00501A70 /* Entities.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AA41931F99624B00501A70 /* Entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42AA41AB1F99628B00501A70 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA41AA1F99628B00501A70 /* State.swift */; };
+		42AA41AE1F996A1B00501A70 /* State.json in Resources */ = {isa = PBXBuildFile; fileRef = 42AA41AD1F99665C00501A70 /* State.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AA41AE1F996A1B00501A70 /* State.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
