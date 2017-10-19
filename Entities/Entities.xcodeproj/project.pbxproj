@@ -10,6 +10,7 @@
 		42AA419A1F99624B00501A70 /* Entities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA41901F99624B00501A70 /* Entities.framework */; };
 		42AA419F1F99624B00501A70 /* EntitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA419E1F99624B00501A70 /* EntitiesTests.swift */; };
 		42AA41A11F99624B00501A70 /* Entities.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AA41931F99624B00501A70 /* Entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42AA41AB1F99628B00501A70 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA41AA1F99628B00501A70 /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		42AA41991F99624B00501A70 /* EntitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AA419E1F99624B00501A70 /* EntitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesTests.swift; sourceTree = "<group>"; };
 		42AA41A01F99624B00501A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AA41AA1F99628B00501A70 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				42AA41931F99624B00501A70 /* Entities.h */,
 				42AA41941F99624B00501A70 /* Info.plist */,
+				42AA41AA1F99628B00501A70 /* State.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					42AA418F1F99624B00501A70 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					42AA41981F99624B00501A70 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AA41AB1F99628B00501A70 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +339,7 @@
 		42AA41A51F99624B00501A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.Entities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +361,7 @@
 		42AA41A61F99624B00501A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +382,7 @@
 		42AA41A81F99624B00501A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EntitiesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +396,7 @@
 		42AA41A91F99624B00501A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EntitiesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
