@@ -17,7 +17,7 @@ class Demo : UIViewController {
     override func viewDidLoad() {
         let state = State(JSON: ["id": 1, "country": "MX", "name": "DF", "abbr": "DF", "area": "gfd", "largest_city": "fds", "capital": "here"] as AnyObject)!
         dataSource.data = [state]
-        let nib = CellComponent.Nibs.makeNib(name: .SomeNibName)
+        let nib = CellComponent.NibClass.makeNib(name: .DescriptionCell)
         table?.register(nib, forCellReuseIdentifier: state.reuseIdentifier)
         table?.dataSource = dataSource
         table?.reloadData()

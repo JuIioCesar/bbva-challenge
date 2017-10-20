@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42AA41B41F99879C00501A70 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA41B31F99879C00501A70 /* DescriptionCell.swift */; };
+		42AA41CD1F9991B800501A70 /* DescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AA41CC1F9991B800501A70 /* DescriptionCell.xib */; };
 		42B130611F995AB500EBF186 /* CellComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B130571F995AB500EBF186 /* CellComponent.framework */; };
 		42B130661F995AB500EBF186 /* CellComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B130651F995AB500EBF186 /* CellComponentTests.swift */; };
 		42B130681F995AB500EBF186 /* CellComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B1305A1F995AB500EBF186 /* CellComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		42AA41B31F99879C00501A70 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		42AA41CC1F9991B800501A70 /* DescriptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionCell.xib; sourceTree = "<group>"; };
 		42B130571F995AB500EBF186 /* CellComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CellComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B1305A1F995AB500EBF186 /* CellComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellComponent.h; sourceTree = "<group>"; };
 		42B1305B1F995AB500EBF186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				42B1305A1F995AB500EBF186 /* CellComponent.h */,
 				42AA41B31F99879C00501A70 /* DescriptionCell.swift */,
+				42AA41CC1F9991B800501A70 /* DescriptionCell.xib */,
 				42B1305B1F995AB500EBF186 /* Info.plist */,
 			);
 			path = CellComponent;
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AA41CD1F9991B800501A70 /* DescriptionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
