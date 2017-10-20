@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 public struct State {
     public let id: Int
     public let country: String
@@ -56,7 +57,7 @@ extension State: CustomStringConvertible {
                "country: \(self.country)" + "\n" +
                "name: \(self.name)" + "\n" +
                "abbr: \(self.abbr)" + "\n" +
-               "area: \(self.area)" + "\n" +
+               "area: \(NSString.squareMiles(self.area) ?? self.area)" + "\n" +
                "largestCity: \(self.largestCity)" + "\n" +
                "capital: \(self.capital)"
     }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4296FF671F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4296FF651F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4296FF681F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296FF661F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.m */; };
 		42AA419A1F99624B00501A70 /* Entities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA41901F99624B00501A70 /* Entities.framework */; };
 		42AA419F1F99624B00501A70 /* StateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA419E1F99624B00501A70 /* StateTests.swift */; };
 		42AA41A11F99624B00501A70 /* Entities.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AA41931F99624B00501A70 /* Entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4296FF651F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SquareKilometersToSquareMilesConversion.h"; sourceTree = "<group>"; };
+		4296FF661F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SquareKilometersToSquareMilesConversion.m"; sourceTree = "<group>"; };
 		42AA41901F99624B00501A70 /* Entities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Entities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AA41931F99624B00501A70 /* Entities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entities.h; sourceTree = "<group>"; };
 		42AA41941F99624B00501A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				42AA41941F99624B00501A70 /* Info.plist */,
 				42AA41AA1F99628B00501A70 /* State.swift */,
 				42AA41AF1F99728900501A70 /* StatesResponse.swift */,
+				4296FF651F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.h */,
+				4296FF661F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.m */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -106,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42AA41A11F99624B00501A70 /* Entities.h in Headers */,
+				4296FF671F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 			files = (
 				42AA41B01F99728900501A70 /* StatesResponse.swift in Sources */,
 				42AA41AB1F99628B00501A70 /* State.swift in Sources */,
+				4296FF681F99BB8A00CEC92C /* NSString+SquareKilometersToSquareMilesConversion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.Entities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -386,6 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.Entities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.EntitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -416,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.EntitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
