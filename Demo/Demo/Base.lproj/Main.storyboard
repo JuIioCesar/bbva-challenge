@@ -47,8 +47,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yLb-hm-NYT"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NQH-nj-wEs"/>
+                    <navigationItem key="navigationItem" id="NQH-nj-wEs">
+                        <barButtonItem key="rightBarButtonItem" title="button" id="UjU-qF-POL"/>
+                    </navigationItem>
                     <connections>
+                        <outlet property="button" destination="UjU-qF-POL" id="M7o-jL-QQK"/>
                         <outlet property="table" destination="m2w-VU-QpT" id="ZHo-mk-hpT"/>
                     </connections>
                 </viewController>

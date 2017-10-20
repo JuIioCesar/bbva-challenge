@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4296FF5A1F99AAA300CEC92C /* URLSession+Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4296FF591F99AAA300CEC92C /* URLSession+Endpoints.swift */; };
+		4296FF5C1F99B32000CEC92C /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4296FF5B1F99B32000CEC92C /* String+Localized.swift */; };
+		4296FF5E1F99B59700CEC92C /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4296FF5D1F99B59700CEC92C /* Interactor.swift */; };
 		42AA41CF1F99963500501A70 /* CellComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA41D21F99963500501A70 /* CellComponent.framework */; };
 		42AA41D01F99963500501A70 /* Entities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA41D31F99963500501A70 /* Entities.framework */; };
 		42AA41D11F99963500501A70 /* TableComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA41D41F99963500501A70 /* TableComponent.framework */; };
@@ -30,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4296FF591F99AAA300CEC92C /* URLSession+Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Endpoints.swift"; sourceTree = "<group>"; };
+		4296FF5B1F99B32000CEC92C /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		4296FF5D1F99B59700CEC92C /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		42AA41D21F99963500501A70 /* CellComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CellComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AA41D31F99963500501A70 /* Entities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Entities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AA41D41F99963500501A70 /* TableComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TableComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +107,9 @@
 			children = (
 				42B1307D1F995C2900EBF186 /* AppDelegate.swift */,
 				42B1307F1F995C2900EBF186 /* Demo.swift */,
+				4296FF5B1F99B32000CEC92C /* String+Localized.swift */,
+				4296FF5D1F99B59700CEC92C /* Interactor.swift */,
+				4296FF591F99AAA300CEC92C /* URLSession+Endpoints.swift */,
 				42B130811F995C2900EBF186 /* Main.storyboard */,
 				42B130841F995C2900EBF186 /* Assets.xcassets */,
 				42B130861F995C2900EBF186 /* LaunchScreen.storyboard */,
@@ -224,6 +233,9 @@
 			files = (
 				42B130801F995C2900EBF186 /* Demo.swift in Sources */,
 				42B1307E1F995C2900EBF186 /* AppDelegate.swift in Sources */,
+				4296FF5E1F99B59700CEC92C /* Interactor.swift in Sources */,
+				4296FF5C1F99B32000CEC92C /* String+Localized.swift in Sources */,
+				4296FF5A1F99AAA300CEC92C /* URLSession+Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
