@@ -13,6 +13,7 @@
 		42AA41AB1F99628B00501A70 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA41AA1F99628B00501A70 /* State.swift */; };
 		42AA41AE1F996A1B00501A70 /* State.json in Resources */ = {isa = PBXBuildFile; fileRef = 42AA41AD1F99665C00501A70 /* State.json */; };
 		42AA41B01F99728900501A70 /* StatesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA41AF1F99728900501A70 /* StatesResponse.swift */; };
+		42AA41B21F997D4C00501A70 /* StateResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 42AA41B11F997CA000501A70 /* StateResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		42AA41AA1F99628B00501A70 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		42AA41AD1F99665C00501A70 /* State.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = State.json; sourceTree = "<group>"; };
 		42AA41AF1F99728900501A70 /* StatesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesResponse.swift; sourceTree = "<group>"; };
+		42AA41B11F997CA000501A70 /* StateResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StateResponse.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				42AA419E1F99624B00501A70 /* StateTests.swift */,
 				42AA41AD1F99665C00501A70 /* State.json */,
+				42AA41B11F997CA000501A70 /* StateResponse.json */,
 				42AA41A01F99624B00501A70 /* Info.plist */,
 			);
 			path = EntitiesTests;
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AA41B21F997D4C00501A70 /* StateResponse.json in Resources */,
 				42AA41AE1F996A1B00501A70 /* State.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
