@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42AA41B41F99879C00501A70 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA41B31F99879C00501A70 /* DescriptionCell.swift */; };
 		42B130611F995AB500EBF186 /* CellComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B130571F995AB500EBF186 /* CellComponent.framework */; };
 		42B130661F995AB500EBF186 /* CellComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B130651F995AB500EBF186 /* CellComponentTests.swift */; };
 		42B130681F995AB500EBF186 /* CellComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B1305A1F995AB500EBF186 /* CellComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42AA41B31F99879C00501A70 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
 		42B130571F995AB500EBF186 /* CellComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CellComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B1305A1F995AB500EBF186 /* CellComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellComponent.h; sourceTree = "<group>"; };
 		42B1305B1F995AB500EBF186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				42B1305A1F995AB500EBF186 /* CellComponent.h */,
+				42AA41B31F99879C00501A70 /* DescriptionCell.swift */,
 				42B1305B1F995AB500EBF186 /* Info.plist */,
 			);
 			path = CellComponent;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					42B130561F995AB500EBF186 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					42B1305F1F995AB500EBF186 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AA41B41F99879C00501A70 /* DescriptionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +339,7 @@
 		42B1306C1F995AB500EBF186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.CellComponent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +361,7 @@
 		42B1306D1F995AB500EBF186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +382,7 @@
 		42B1306F1F995AB500EBF186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CellComponentTests/Info.plist;
@@ -388,6 +397,7 @@
 		42B130701F995AB500EBF186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CellComponentTests/Info.plist;

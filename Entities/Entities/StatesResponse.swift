@@ -9,8 +9,8 @@
 import Foundation
 
 public struct StatesResponse {
-    let messages: [String]
-    let states: [State]
+    public let messages: [String]
+    public let states: [State]
 }
 
 public extension StatesResponse {

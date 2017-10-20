@@ -9,13 +9,13 @@
 import Foundation
 
 public struct State {
-    let id: Int
-    let country: String
-    let name: String
-    let abbr: String
-    let area: String
-    let largestCity: String
-    let capital: String
+    public let id: Int
+    public let country: String
+    public let name: String
+    public let abbr: String
+    public let area: String
+    public let largestCity: String
+    public let capital: String
 }
 
 public extension State {
