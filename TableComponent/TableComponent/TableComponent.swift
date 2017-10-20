@@ -20,7 +20,7 @@ public protocol Configurable {
 }
 
 public final class DataSource: NSObject, UITableViewDataSource {
-    var data = [TableViewCompatible]()
+    public var data = [TableViewCompatible]()
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
