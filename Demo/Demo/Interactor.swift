@@ -16,6 +16,8 @@ enum TableData {
     fileprivate static var source = DataSource()
 }
 
+typealias NetworkController = URLSession // Just to fill the class requirement
+
 class Interactor {
     
     private let url: URL
@@ -27,7 +29,7 @@ class Interactor {
     }
     
     @objc func fetchData() {
-        let task = URLSession.shared.statesTask(with: url) { (states) in
+        let task = NetworkController.shared.statesTask(with: url) { (states) in
             DispatchQueue.main.async {
                 
                 if let state = states.first  {
