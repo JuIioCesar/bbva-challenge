@@ -49,3 +49,15 @@ public extension State {
         self.capital = capital
     }
 }
+
+extension State: CustomStringConvertible {
+    public var description: String {
+        return "id: \(self.id)" + "\n" +
+               "country: \(self.country)" + "\n" +
+               "name: \(self.name)" + "\n" +
+               "abbr: \(self.abbr)" + "\n" +
+               "area: \(self.area)" + "\n" +
+               "largestCity: \(self.largestCity)" + "\n" +
+               "capital: \(self.capital)"
+    }
+}

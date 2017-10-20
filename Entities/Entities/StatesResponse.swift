@@ -23,7 +23,7 @@ public extension StatesResponse {
     init?(JSON: AnyObject) {
         guard let response = JSON[Keys.RestResponse] as? [String: Any],
               let messages = response[Keys.messages] as? [String],
-              let result = JSON[Keys.result] as? [String: Any] else {
+              let result = response[Keys.result] as? [[String: Any]] else {
                 return nil
         }
         self.states = result.flatMap({ (json) -> State? in

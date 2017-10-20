@@ -31,3 +31,10 @@ public final class DataSource: NSObject, UITableViewDataSource {
         return model.cellForTableView(tableView: tableView, atIndexPath: indexPath)
     }
 }
+
+public extension UITableView {
+    public func setAutomaticRowHeight() {
+        estimatedRowHeight = UITableViewAutomaticDimension
+        rowHeight = UITableViewAutomaticDimension
+    }
+}

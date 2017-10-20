@@ -15,7 +15,7 @@ class DescriptionCell: UITableViewCell, TableComponent.Configurable {
     var model: State?
     func configureWithModel(_ model: State) {
         self.model = model
-        self.titleLabel?.text = "\(model.id)"
+        self.titleLabel?.text = "\(model)"
     }
 }
 
