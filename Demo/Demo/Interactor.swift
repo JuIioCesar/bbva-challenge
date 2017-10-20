@@ -16,8 +16,6 @@ enum TableData {
     fileprivate static var source = DataSource()
 }
 
-typealias NetworkController = URLSession // Just to fill the class requirement
-
 class Interactor {
     
     private let url: URL
