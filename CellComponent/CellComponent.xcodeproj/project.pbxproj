@@ -9,20 +9,8 @@
 /* Begin PBXBuildFile section */
 		42AA41B41F99879C00501A70 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA41B31F99879C00501A70 /* DescriptionCell.swift */; };
 		42AA41CD1F9991B800501A70 /* DescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AA41CC1F9991B800501A70 /* DescriptionCell.xib */; };
-		42B130611F995AB500EBF186 /* CellComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B130571F995AB500EBF186 /* CellComponent.framework */; };
-		42B130661F995AB500EBF186 /* CellComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B130651F995AB500EBF186 /* CellComponentTests.swift */; };
 		42B130681F995AB500EBF186 /* CellComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B1305A1F995AB500EBF186 /* CellComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		42B130621F995AB500EBF186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42B1304E1F995AB500EBF186 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42B130561F995AB500EBF186;
-			remoteInfo = CellComponent;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		42AA41B31F99879C00501A70 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
@@ -30,9 +18,6 @@
 		42B130571F995AB500EBF186 /* CellComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CellComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B1305A1F995AB500EBF186 /* CellComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellComponent.h; sourceTree = "<group>"; };
 		42B1305B1F995AB500EBF186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42B130601F995AB500EBF186 /* CellComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellComponentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42B130651F995AB500EBF186 /* CellComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellComponentTests.swift; sourceTree = "<group>"; };
-		42B130671F995AB500EBF186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,14 +28,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42B1305D1F995AB500EBF186 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42B130611F995AB500EBF186 /* CellComponent.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,7 +35,6 @@
 			isa = PBXGroup;
 			children = (
 				42B130591F995AB500EBF186 /* CellComponent */,
-				42B130641F995AB500EBF186 /* CellComponentTests */,
 				42B130581F995AB500EBF186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				42B130571F995AB500EBF186 /* CellComponent.framework */,
-				42B130601F995AB500EBF186 /* CellComponentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,15 +56,6 @@
 				42B1305B1F995AB500EBF186 /* Info.plist */,
 			);
 			path = CellComponent;
-			sourceTree = "<group>";
-		};
-		42B130641F995AB500EBF186 /* CellComponentTests */ = {
-			isa = PBXGroup;
-			children = (
-				42B130651F995AB500EBF186 /* CellComponentTests.swift */,
-				42B130671F995AB500EBF186 /* Info.plist */,
-			);
-			path = CellComponentTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,24 +90,6 @@
 			productReference = 42B130571F995AB500EBF186 /* CellComponent.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		42B1305F1F995AB500EBF186 /* CellComponentTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42B1306E1F995AB500EBF186 /* Build configuration list for PBXNativeTarget "CellComponentTests" */;
-			buildPhases = (
-				42B1305C1F995AB500EBF186 /* Sources */,
-				42B1305D1F995AB500EBF186 /* Frameworks */,
-				42B1305E1F995AB500EBF186 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42B130631F995AB500EBF186 /* PBXTargetDependency */,
-			);
-			name = CellComponentTests;
-			productName = CellComponentTests;
-			productReference = 42B130601F995AB500EBF186 /* CellComponentTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,10 +103,6 @@
 					42B130561F995AB500EBF186 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					42B1305F1F995AB500EBF186 = {
-						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -176,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				42B130561F995AB500EBF186 /* CellComponent */,
-				42B1305F1F995AB500EBF186 /* CellComponentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,13 +130,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				42AA41CD1F9991B800501A70 /* DescriptionCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42B1305E1F995AB500EBF186 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,23 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42B1305C1F995AB500EBF186 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42B130661F995AB500EBF186 /* CellComponentTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		42B130631F995AB500EBF186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42B130561F995AB500EBF186 /* CellComponent */;
-			targetProxy = 42B130621F995AB500EBF186 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		42B130691F995AB500EBF186 /* Debug */ = {
@@ -383,36 +303,6 @@
 			};
 			name = Release;
 		};
-		42B1306F1F995AB500EBF186 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CellComponentTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.julio.CellComponentTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		42B130701F995AB500EBF186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CellComponentTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.julio.CellComponentTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,15 +320,6 @@
 			buildConfigurations = (
 				42B1306C1F995AB500EBF186 /* Debug */,
 				42B1306D1F995AB500EBF186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42B1306E1F995AB500EBF186 /* Build configuration list for PBXNativeTarget "CellComponentTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42B1306F1F995AB500EBF186 /* Debug */,
-				42B130701F995AB500EBF186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
