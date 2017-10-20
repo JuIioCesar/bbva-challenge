@@ -15,7 +15,7 @@ class Demo : UIViewController {
     
     override func viewDidLoad() {
         table?.setAutomaticRowHeight()
-        guard let table = table, let url = URL.groupktStates, let button = button else {
+        guard let table = table, let url = URL.GroupKTStates, let button = button else {
             return
         }
         interactor = Interactor(url: url, table: table)

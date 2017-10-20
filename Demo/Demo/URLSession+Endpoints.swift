@@ -10,7 +10,7 @@ import Foundation
 import Entities
 
 extension URL {
-    static let groupktStates = URL(string: "http://services.groupkt.com/state/get/USA/all")
+    static let GroupKTStates = URL(string: "http://services.groupkt.com/state/get/USA/all")
 }
 
 extension URLSession {
